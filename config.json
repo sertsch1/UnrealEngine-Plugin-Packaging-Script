@@ -1,0 +1,65 @@
+{
+	"destination_path": "..\\YourPlugin\\Packaged_Builds\\{platform}\\{package_version}",
+	"uat_dir": "UE_{version}\\Engine\\Build\\BatchFiles\\RunUAT.bat",
+	"engine_parent_dir": "C:\\",
+	"build_seperate_platform_versions": true,
+	"skip_already_packaged": false,
+	"print_stdout": true,
+	"error_lines_to_print": 6,
+	"no_platform_provided_dir_name": "All",
+	"default_args": [
+		"NoHostPlatform",
+		"StrictIncludes",
+		"Rocket"
+	],
+	"plugin_versions": [
+		{
+			"plugin_path": "..\\YourPlugin\\YourPlugin.uplugin",
+			"platforms": [
+				"Win64"
+			],
+			"engine_versions": [
+				"5.4",
+				"5.3",
+				"5.2",
+				"5.1",
+				"5.0"
+			]
+		},
+		{
+			"plugin_path": "..\\YourPlugin_4_23\\YourPlugin.uplugin",
+			"platforms": [
+				"Win64",
+				"Linux"
+			],
+			"engine_versions": [
+				"4.27",
+				"4.26",
+				"4.25",
+				"4.24",
+				"4.23"
+			]
+		},
+		{
+			"plugin_path": "..\\YourPlugin_4_11\\YourPlugin.uplugin",
+			"platforms": [
+				"Win64",
+				"Linux"
+			],
+			"engine_versions": [
+				"4.22",
+				"4.21",
+				"4.20",
+				"4.19",
+				"4.18",
+				"4.17",
+				"4.16",
+				"4.15",
+				"4.14",
+				"4.13",
+				"4.12",
+				"4.11"
+			]
+		}
+	]
+}
